@@ -6,14 +6,14 @@ export default function AboutMe() {
   return (
     <>
       <div className="text-center p-10">
-        <h2 className="text-5xl py-2 text-teal-600 font-medium">Nicho.Ask</h2>
-        <h3 className="text-2xl py-2">Front end coders</h3>
-        <p className="text-md py-5 leading-8 text-gray-800">
+        <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Nicho.Ask</h2>
+        <h3 className="text-2xl py-2 md:text-3xl">Front end coders</h3>
+        <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
           Freelancer providing services for programming for website.Join me
           below and let's code!
         </p>
       </div>
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-500">
         <AiFillInstagram className="cursor-pointer" />
         <AiFillLinkedin className="cursor-pointer" />
         <AiFillGithub className="cursor-pointer" />
